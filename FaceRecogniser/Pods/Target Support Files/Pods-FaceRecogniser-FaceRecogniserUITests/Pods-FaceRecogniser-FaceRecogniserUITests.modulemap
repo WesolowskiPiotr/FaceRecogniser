@@ -1,0 +1,6 @@
+framework module Pods_FaceRecogniser_FaceRecogniserUITests {
+  umbrella header "Pods-FaceRecogniser-FaceRecogniserUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

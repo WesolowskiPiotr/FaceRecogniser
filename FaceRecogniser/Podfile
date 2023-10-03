@@ -1,0 +1,21 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'FaceRecogniser' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for FaceRecogniser
+
+  pod 'OpenCV'
+
+  target 'FaceRecogniserTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'FaceRecogniserUITests' do
+    # Pods for testing
+  end
+
+end
